@@ -30,7 +30,7 @@ class MainPresenter : MainViewPresenterProtocol{
     }
     
     func showGreeting() {
-        let str = self.person.firstName + "   " + self.person.lastName
+        let str = self.person.firstName + " " + self.person.lastName
         view.setGreeting(greeting:  str)
             
     }
