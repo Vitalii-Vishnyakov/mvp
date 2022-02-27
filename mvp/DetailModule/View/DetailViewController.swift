@@ -18,6 +18,9 @@ class DetailViewController: UIViewController {
        
     }
 
+    @IBAction func tapAction(_ sender: Any) {
+        presenter.tap()
+    }
     
 }
 extension DetailViewController : DetailViewProtocol{
